@@ -1,13 +1,115 @@
 * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+body {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+.section-1{
+    display: flex;
+    flex-direction: column;
+    background-color: #f6f6fb;
+    
+    
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 3px ;
+    margin: 24px;
+    background-color: white;
+    width: 1392;
+    height: 80;
+    border-radius: 99px;
+    padding-top: 12px;
+    padding-right: 80px;
+    padding-bottom: 12px;
+    padding-left: 80px;
+
+}
+.nev-wrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+}
+.promote{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 120px;
+    margin-bottom: 0px;
+
+}
+.app{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border: 1px ;
+    background-color: #573aff10;
+    border-radius: 40px;
+    color: #573aff;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    width: 236px;
+    height: 40px;
+    text-align: center;
+}
+.promote span{
+    color: #5e44ff;
+}
+.nev-wrapper a{
+    color: black;
+    text-decoration: none;
+}
+.nev-wrapper a:hover {
+    color: #5e44ff;
+    text-decoration: underline;
+}
+.promote button{
+    background-color: #1A1A2C;
+    color: white;
+    width: 187px;
+    height: 56px;
+    border-radius: 16px;
+    border-radius: 16px;
+    padding-top: 16px;
+    padding-right: 36px;
+    padding-bottom: 16px;
+    padding-left: 36px;
+    margin: 120px;
+    margin-top: 40px;
+
+}
+.promote h1{
+    font-family: Inter;
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 84px;
+    letter-spacing: -2%;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.promote h5{
+    font-family: Inter;
+font-weight: 600;
+font-size: 24px;
+line-height: 32px;
+letter-spacing: 0%;
+text-align: center;
+margin-top:24px ;
 }
 
-body {
-  background-color: #f6f6fb;
-  font-family: "Inter", serif;
-}
 
 .feat-section {
     display: flex;
